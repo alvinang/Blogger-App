@@ -6,6 +6,9 @@ class ArticlesController < ApplicationController
 
   def show
     @article = Article.find(params[:id])
+
+    @comment = Comment.new          #Comment.new instead of @article.comments.new to avoid auto-assign article_id & generate new comment
+    @comment.article_id = @article.id
   end
 
   def new
