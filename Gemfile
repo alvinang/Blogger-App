@@ -16,6 +16,8 @@ gem 'devise', github: 'plataformatec/devise', branch: 'rails4'
 
 group :development do
   gem 'better_errors'
+  gem 'capistrano'
+  gem 'rvm-capistrano'
 end
 
 group :doc do
