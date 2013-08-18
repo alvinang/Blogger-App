@@ -18,6 +18,10 @@ group :development do
   gem 'better_errors'
 end
 
+group :production do
+  gem 'mysql2'
+end
+
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
   gem 'sdoc', require: false
