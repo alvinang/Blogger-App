@@ -12,6 +12,7 @@ gem 'binding_of_caller'
 gem 'jquery-rails'
 gem 'jbuilder', '~> 1.2'
 gem 'protected_attributes'
+gem 'devise', github: 'plataformatec/devise', branch: 'rails4'
 
 group :development do
   gem 'better_errors'
