@@ -18,9 +18,8 @@ group :development do
   gem 'better_errors'
 end
 
-group :production do
-  gem 'mysql2'
-end
+gem 'mysql2'
+
 
 gem 'capistrano'
 gem 'unicorn'
