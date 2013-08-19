@@ -11,7 +11,12 @@ slight modifications that I made from this tutorial:
 
 This app is created using rails 4.0.0 and ruby 2.0.0p195.
 
-### Minor Report
+### Creating an Admin Model
+
+If this is your own blog, you want to avoid having others creating articles. To do that, extend devise and add an Admin role.
+See the tutorial here [Devise Admin Role](https://github.com/plataformatec/devise/wiki/How-To:-Add-an-Admin-role):
+
+### Minor Update
 
 * Rails 4 does not built in "attr_accessible". Used "protected_attributes" gem instead, for now.
 * To use devise on Rails 4, specify branch. See gemfile for more information.
