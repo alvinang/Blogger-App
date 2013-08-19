@@ -23,6 +23,7 @@ group :production do
 end
 
 gem 'capistrano'
+gem 'unicorn'
 gem 'capistrano-unicorn'
 
 group :doc do
