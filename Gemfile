@@ -20,11 +20,6 @@ end
 
 gem 'mysql2'
 
-
-gem 'capistrano'
-gem 'unicorn'
-gem 'capistrano-unicorn'
-
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
   gem 'sdoc', require: false
