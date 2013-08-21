@@ -24,8 +24,4 @@ from my GitHub and hosts it on DigitalOcean. It cost me $9 + $5 per month, respe
 * Rails 4 does not built in "attr_accessible". Used "protected_attributes" gem instead, for now.
 * To use devise on Rails 4, specify branch. See gemfile for more information.
 
-### Next Steps
-
-* Add stats dashboard and move on to other tutorials on JumpStartLab.
-
 Questions? Feel free to contact me at via github or [email](mailto:alvinangbs@gmail.com).
