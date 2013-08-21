@@ -11,10 +11,13 @@ slight modifications that I made from this tutorial:
 
 This app is created using rails 4.0.0 and ruby 2.0.0p195.
 
-### Creating an Admin Model
+### Deployment
 
-If this is your own blog, you want to avoid having others creating articles. To do that, extend devise and add an Admin role.
-See the tutorial here [Devise Admin Role](https://github.com/plataformatec/devise/wiki/How-To:-Add-an-Admin-role):
+I configured DigitalOcean VPS with nginx, passenger and mysql on Ubuntu 11.04 LTS. However, I found a significantly easier way
+to deploy this app.
+
+[Cloud66](https://www.cloud66.com): and [DigitalOcean](https://www.digitalocean.com/):. Cloud66 setup my stack, syncs and pull
+from my GitHub and hosts it on DigitalOcean. It cost me $9 + $5 per month, respectively. It is totally worth it.
 
 ### Minor Update
 
@@ -23,13 +26,6 @@ See the tutorial here [Devise Admin Role](https://github.com/plataformatec/devis
 
 ### Next Steps
 
-* Only allow one user to create articles
-* Improve entire website flow
-* Clean & Improve UI
-* Add static pages
-* Use mysql2 gem in production
-* Create brief statistics dashboard
-* Slim down controllers
-* Mess with Draper
-* Using digitalocean - need to setup server, install git
-* Capistrano to improve workflow
+* Add stats dashboard and move on to other tutorials on JumpStartLab.
+
+Questions? Feel free to contact me at via github or [email](mailto:alvinangbs@gmail.com):.
